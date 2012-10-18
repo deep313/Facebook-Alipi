@@ -1,0 +1,14 @@
+
+Steps to run the code and get data from facebook.
+
+1. To run the code, import it in NET-BEANS.
+2. Include the jars newfacebook.jar and restfb-1.6.9.jar.
+3. Integrate net beans with any server (like apache tomcat).
+4. Import localhost.sql in databse.
+5. In any browser type "localhost:8084/client.jsp".
+6. Then get access token of your facebook profile from the link "https://developers.facebook.com/tools/explorer/"(you must be logged in on facebook).
+7. While generating access token tick mark the permissions you want to give to the app.
+8. Copy the access token on localhost:8084/client.jsp.
+9. The database now has the information you asked for. :)
+
+
